@@ -121,6 +121,10 @@ const Payment = ({ history }) => {
       <div className="paymentContainer">
         <form className="paymentForm" onSubmit={(e) => submitHandler(e)}>
           <Typography>Card Info</Typography>
+          <Typography style={{ fontSize: "12px"}}>For Testing</Typography>
+          <Typography style={{ fontSize: "12px"}}>Card No. 4000 0027 6000 3184</Typography>
+          <Typography style={{ fontSize: "12px"}}>Expiry Date: 12/25</Typography>
+          <Typography style={{ fontSize: "12px"}}>CVV: 127</Typography>
           <div>
             <CreditCardIcon />
             <CardNumberElement className="paymentInput" />
